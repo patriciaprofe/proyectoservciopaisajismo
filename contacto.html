@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">  <!-- El tipo de letra soportado-->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terrazas con Encanto</title>
-</head>
-<body>
-    <header>
-        <h1>Terrazas con Encanto</h1>
-         <nav>
-           <ul>
-               <li><a href="index.html">Inicio</a></li>
-               <li><a href="servicios.html"> Servicios </a></li>
-               <li> <a href="portafolio.html">Portafolio </a></li>
-               <li>  Contacto</li>
-
-           </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Servicio de paisajismo en balcones y terrazas</h2>
-        <h3> Contacto</h3>
-         <p>Ofrecemos una variedad de servicios de  paisajismo diseñados específicamente
-            para balcones y terrazas. Nuestros servicios incluyen:</p>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus autem delectus harum natus consequatur dolor eligendi assumenda, 
-            sapiente quia dolorem ipsa rerum labore consectetur culpa doloremque reiciendis, excepturi optio non?
-
-         </p>
-    </main>
-    <footer>
-
-    </footer>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Terrazas con Encanto</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <header>
+           
+          <nav id="barranav">
+              <ul>
+                <li ><a href="index.html"> Servicios </a></li><!-- enlace a servicios-->
+                <li>  <a href="portafolio.html">Portafolio</a> </li>
+                <li> Contacto</li>
+              </ul>
+          </nav>
     
-</body>
-</html>
+          <h1  class="encabezado">Contacto</h1> 
+        </header>
+        <main>
+           <h2  class="textosubtitulo">Servicio de paisajismo en balcones y terrazas
+           </h2>
+           <div class="fondoform"> <!--Caja contenedora fondo del formulario-->
+            <form  method="post">   <!--Etiqueta de formulario-->
+                 <div>
+                  <label for="name" class="textoform">Nombre:</label><br> 
+                  <input type="text" id="name" size="50" maxlength="30" name="user_name" /><!--Etiqueta de texto de entrada-->
+                </div>
+                <div>
+                  <label for="mail" class="textoform">Correo electrónico:</label><br>
+                  <input type="email" id="mail" size="50" maxlength="30"  name="user_mail" /> <!--Etiqueta de email de entrada-->
+                </div>
+                 <div>
+                  <label for="msg" class="textoform">Mensaje:</label><br>
+                  <textarea id="msg" name="user_message" rows="10" cols="50" ></textarea> <!--Etiqueta de casilla de textos de entrada-->
+                </div>
+                <div><button type="submit" class="textoform">Enviar</button> <!--Etiqueta de botón de envio de formulario-->
+                </div>
+                
+                  
+            </form>
+           </div> 
+         
+         
+          </main>
+        <footer>
+               <h3 class="textofooter">Derechos reservados</h3>
+        </footer>
+    </body>
+    </html>

@@ -1,0 +1,137 @@
+*{                        /*Define el estilo para todas la página */
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+header{                   /*Define el estilo del header*/
+    width: 100%;
+    display: block;
+    align-items: center;
+
+  }
+  #barranav{           /*estilo de la etiqueta nav del menú*/
+    height: 149px;
+    background-color: rgba(154, 196, 152, 1); /*Color de fondo nav del menú*/
+  }
+   .textosubtitulo{     /*Texto de los subtitulos*/  
+    font-size:24px;
+    font-family: sans-serif;
+    margin:20px;
+    text-align: center;
+   }
+   
+ 
+  .foto{   /*Disposición y estilo de la caja contenedora de la foto principal*/  
+    display: flex;
+    justify-content: center;
+  }
+ .paisajismo-jpg { /*Disposición y estilo de la foto principal*/  
+    width: 40%;
+    height: auto;
+    border-radius: 30px 30px 30px 30px;
+    align-self: center;
+  }
+  .encabezado {  /*estilo del encabezado principal*/  
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'arial';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 20px;
+
+  }
+
+  /*A continuación se definen los estilos de las contenedores y etiquetas de la barra de navegación*/
+  #barranav ul{    /*estilo de las etiquetas que se encuentran dentro del nav y su disposición*/
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 134px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+   }
+  #barranav ul li{   /*estilo de cada botón y su disposición*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 62px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgba(39, 113, 11, 1);
+  margin: 10px;
+  font-size: 24px;
+  font-family: sans-serif;
+
+  }
+
+  #barranav ul li a{ /*estilo de cada palabra y su enlace*/
+        color: white;
+        text-decoration: none;
+      }
+
+  #barranav ul li a:hover{ /*estilo pseudo clase cuando se posiciona encima cambia el color*/
+        color:lightgreen;
+      }
+      
+  footer {   /*estilo del footer*/
+    width: 100%;
+    height: 49px;
+    background-color: rgba(177, 178, 181, 1);
+    position: relative;
+    bottom: 0;
+    margin: 0px;
+    display: flex;
+    padding: 20px;
+    align-items:center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .textofooter{  /*estilo del texto del footer*/
+    font-size: 24px;
+    font-family: sans-serif;
+    
+  }
+
+
+  .fondogriscontenedor { /*estilo de la caja fondo de  portafolio */
+    position: relative;
+    width: 100%;
+    height: 530px;
+    padding: 20px;
+    background-color: rgba(247, 249, 255, 1);
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .cajaproyecto {   /*estilo de cada caja  gris de proyecto del portafolio */
+    margin: 20px;
+    width: 350px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgba(177, 178, 181, 1);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 20px;
+  }
+  .fotoproyecto{  /*Disposición de las imágenes */
+    width: 80%;
+    height: auto;
+    
+  }
+  .terraza{      /*Textos de cada caja  */
+    font-size: 24px;
+    font-family: sans-serif;
+  }
+  .fondoform{ /*Fondo del formulario */
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    background-color: rgba(247, 249, 255, 1);
+
+  }
+  .textoform{ /*texto del formulario */
+    font-family: sans-serif;
+    font-size: 24px;
+  }
